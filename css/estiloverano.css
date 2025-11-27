@@ -1,0 +1,201 @@
+body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .imagen-festival {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .imagen-festival img {
+      max-width: 50%;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 22px;
+    }
+
+    ul {
+      margin-top: 15px;
+      padding-left: 40px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    color: #000
+    
+
+}
+
+/*Estilos para la cabecera*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f7;
+    color: #000;
+}
+
+/* Estilo del logo */
+.logo img {
+    width: 350px;   
+    height: auto;   
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li{
+    margin: 0 15px;
+    padding: 40px;
+
+}
+
+header nav ul li a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+
+header .idioma select{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-col h2,
+.footer-col h3 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #bbb;
+}
+
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 8px 0;
+}
+
+.footer-col ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #f39c12;
+}
+
+
+.social-links a {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  font-size: 18px;
+  color: #fff;
+  background: #e74c3c;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.social-links a:hover {
+  background: #c0392b;
+}
+
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.insta-grid img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #aaa;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    font-size: 24px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
